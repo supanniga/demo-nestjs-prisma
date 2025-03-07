@@ -74,7 +74,10 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@nestjs/core",
-      "@swc/core"
+      "@prisma/engines",
+      "@swc/core",
+      "esbuild",
+      "prisma"
     ]
   }
 }
